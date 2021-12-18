@@ -1,0 +1,18 @@
+/*h1, a, div, p{
+    background: #ff8000;
+}*/
+
+div{
+    height: 50px;
+    width: 30%;
+    background: red;
+
+    margin: 100px 100px;
+    padding: 20px;
+    border: 10px solid #3ec483;
+}
+
+body{
+    background: url(logoUVM.png);
+    background-repeat: no-repeat;
+}

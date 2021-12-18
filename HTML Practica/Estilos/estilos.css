@@ -1,0 +1,23 @@
+body{
+    font-size: 16px;
+}
+
+h2{
+    color: rgb(53, 131, 44);
+}
+
+h3{
+    color: #01DF3A;
+}
+
+h4{
+    color: rgba(49, 163, 239, .5);
+}
+
+div{
+    border: 10px ;
+    font-size: 25px;
+    background: #000;
+    color: #fff;
+    width: 50%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lan="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="">
+        <title></title>
+
+        <script type="text/javascript">
+            var precioUnit, cantidad, total;
+            precioUnit=5;
+            cantidad=100;
+            total=precioUnit*cantidad;
+        </script>
+    </head>
+    <body>
+
+<form>
+    <input type="text" name="" value="" id="num1">
+    <input type="text" name="" value="" id="num2">
+    <input type="button" name="button" value="sumar" id="alert(suma(num1,num2));">
+</form>
+
+<script>
+    var suma = function(num1,num2){
+        var num1 = parseInt(document.getElementById("num1").value);
+        var num2 = parseInt(document.getElementById("num2").value);
+
+        var resultado = num1 + num2;
+        return resultado;
+    }
+</script>
+
+    </body>
+</html>

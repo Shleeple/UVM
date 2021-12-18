@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lan="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="">
+        <title></title>
+
+        <script type="text/javascript">
+        function sumar(n1,n2){
+            alert("La suma es "+(n1+n2))
+        }
+        function restar(n1,n2){
+            alert("La resta es "+(n1-n2))
+        }
+        function divide(n1,n2){
+            alert("La division es "+(n1/n2))
+        }
+
+        </script>
+    </head>
+    <body>
+
+<script type="text/javascript">
+    var operacion=prompt("Que quieres hacer? ")
+
+    var num1=parseInt(prompt("Captura el numero 1: "))
+    
+    var num2=parseInt(prompt("Captura el numero 2: "))
+
+if(operacion =="sumar"){
+    suma(num1,num2);
+}else if (operacion =="restar"){
+    resta(num1,num2)
+}else if (operacion == "dividir"){
+    divide(num1,num2)
+}else{
+    alert("No contemplado")
+}
+
+</script>
+
+    </body>
+</html>
